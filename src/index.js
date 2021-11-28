@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Square from './Square';
+import UserList from './user_list/UserList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Square label="BIG square" cssClass="big" />
-    <Square label="A less square" cssClass="less" />
-    <Square label="The smallest one" cssClass="small" />
+    <UserList />
   </React.StrictMode>,
   document.getElementById('root')
 );
