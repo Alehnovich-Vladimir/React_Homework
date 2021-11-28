@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.big {
+  height: 400px;
+  width: 400px;
+  background-color: orangered;
+  font-size: 40px; 
+  font-weight: bolder; 
+}
+
+.less {
+  height: 300px;
+  width: 300px;
+  background-color: orange;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.small {
+  height: 200px;
+  width: 200px;
+  background-color: orangered;
+  font-size: 20px; 
+  font-weight: 700;
+}
+
+.big, .less, .small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
