@@ -1,5 +1,5 @@
 import data from "./data.json"
-import '../App.css'
+import './index.css'
 
 const UserList = () => {
     const userData = data.map(element => {
