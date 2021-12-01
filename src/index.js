@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import UserList from './components/user_list/UserList'
+import Button from './components/Button/Button'
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserList />
+    <Button />
   </React.StrictMode>,
   document.getElementById('root')
 );
