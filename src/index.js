@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ButtonRepeat from './components/Cyclic_button/cyclic-button'
+import Counter from './components/Counter_component/counter'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ButtonRepeat className="btnRepeat"/>
+    <Counter />
   </React.StrictMode>,
   document.getElementById('root')
 );
