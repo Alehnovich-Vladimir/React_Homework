@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Square from './Square';
+import VideoTag from './VideoTag';
+import Text from './Text'
 
 ReactDOM.render(
   <React.StrictMode>
