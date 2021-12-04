@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Conditional from './components/Conditional_rendering/conditional_rendering'
+import Dropdown from './components/Dropdown/custom_dropdown'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Conditional />
+    <Dropdown />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
