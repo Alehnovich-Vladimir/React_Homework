@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './components/Counter_component/counter'
+import Conditional from './components/Conditional_rendering/conditional_rendering'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Conditional />
   </React.StrictMode>,
   document.getElementById('root')
 );
