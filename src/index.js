@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './components/Counter_component/counter'
+import Counter from './components/CounterComponent/index'
 
 ReactDOM.render(
   <React.StrictMode>
