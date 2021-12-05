@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Conditional from './components/Conditional_rendering/conditional_rendering'
+import Conditional from './components/ConditionalRendering/index'
 
 ReactDOM.render(
   <React.StrictMode>
