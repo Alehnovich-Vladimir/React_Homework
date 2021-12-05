@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ButtonRepeat from './components/Cyclic_button/cyclic-button'
+import ButtonRepeat from './components/CyclicButton/index'
 
 ReactDOM.render(
   <React.StrictMode>
