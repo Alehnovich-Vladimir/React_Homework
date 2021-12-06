@@ -15,13 +15,13 @@ body {
 
 .dropdown .dropdown-btn {
     padding: 10px;
+    padding-left: 100px;
     background: #fff;
     box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
     font-weight: bold;
     color: blue;
     font-size: 22px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 

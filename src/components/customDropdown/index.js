@@ -9,7 +9,7 @@ function Dropdown () {
             <div className="dropdown-btn" onClick={() =>
                 setIsActive(!isActive)}>
                  Choose language
-                <span className="caret">🔽</span>
+                 {isActive ? "🔼" : "🔽"}
                 </div>
             {isActive && (
                 <div className="dropdown-content">
@@ -24,3 +24,4 @@ function Dropdown () {
     );
 }
 export default Dropdown
+//<span className="caret">🔽</span>
