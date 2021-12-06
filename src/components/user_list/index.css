@@ -1,0 +1,11 @@
+.users-list {
+    margin: 0 auto;
+}
+  
+.user {
+    border: 1px solid black;
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+}
