@@ -5,6 +5,7 @@ import Counter from './components/counterComponent'
 import ButtonRepeat from './components/cyclicButton'
 import Conditional from './components/conditionalRendering'
 import Dropdown from './components/customDropdown'
+import Ternary from './components/ternaryOperator/index'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
     <ButtonRepeat className="btnRepeat" />
     <Conditional />
     <Dropdown />
+    <Ternary />
   </React.StrictMode>,
   document.getElementById('root')
 );
