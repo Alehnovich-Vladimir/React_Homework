@@ -5,7 +5,7 @@ import Counter from './components/counterComponent'
 import ButtonRepeat from './components/cyclicButton'
 import Conditional from './components/conditionalRendering'
 import Dropdown from './components/customDropdown'
-import Ternary from './components/ternaryOperator/index'
+import Ternary from './components/ternaryOperator'
 
 ReactDOM.render(
   <React.StrictMode>
