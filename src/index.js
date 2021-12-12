@@ -6,6 +6,7 @@ import ButtonRepeat from './components/cyclicButton'
 import Conditional from './components/conditionalRendering'
 import Dropdown from './components/customDropdown'
 import Ternary from './components/ternaryOperator'
+import Pages from './components/simplePagination'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Conditional />
     <Dropdown />
     <Ternary />
+    <Pages />
   </React.StrictMode>,
   document.getElementById('root')
 );
