@@ -31,8 +31,8 @@ const Pages = () => {
                 {posts.map((post) => {
                     return (
                         <div className="post" key={post.id}>
-                            <img className="img" key={post.url} src={post.url} alt={post.title}></img>
-                            <p key={post.title}>{post.title}</p>
+                            <img className="img" src={post.url} alt={post.title}></img>
+                            <p>{post.title}</p>
                         </div>
                     )
                 })}
