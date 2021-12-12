@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Button from './components/Button/Button'
+import Posts from './components/Posts'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Button />
+    <Posts />
   </React.StrictMode>,
   document.getElementById('root')
 );
