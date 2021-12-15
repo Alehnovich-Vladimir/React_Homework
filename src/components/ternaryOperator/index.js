@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './index.css'
 
 const Login = () => {
-  const [isSignIn, setSignIn] = useState("false");
+  const [isSignIn, setSignIn] = useState(false);
 
   const loginIn = () => {
     setSignIn(!isSignIn);
@@ -14,7 +14,7 @@ const Login = () => {
 
   return (
     <div className="container">
-      {!isSignIn ? (
+      {isSignIn ? (
         <p className="text"> Hello user!!!</p>
       ) : (
         <button className="btn" onClick={onClickButton}>Sing In</button>
