@@ -1,0 +1,25 @@
+.new-name {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.names {
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}

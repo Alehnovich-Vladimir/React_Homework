@@ -8,6 +8,7 @@ import Dropdown from './components/customDropdown'
 import Ternary from './components/ternaryOperator'
 import Pages from './components/simplePagination'
 import UseEffect from './components/useEffect'
+import Modifying from './components/modifyingArray'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Ternary />
     <Pages />
     <UseEffect />
+    <Modifying />
   </React.StrictMode>,
   document.getElementById('root')
 );
