@@ -1,0 +1,45 @@
+.timer {
+    display: flex;
+    margin: 250px auto;
+    text-align: center;
+}
+
+.dots {
+    margin: 0 20px;
+    font-size: 40px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.timer-hours {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+
+.minutes-counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+
+button {
+    margin-top: 30px;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn-m {
+    margin-right: 5px;
+    background-color: #3498db;
+    font-weight: bold;
+}
+
+.btn-p {
+    background-color: red;
+    font-weight: bold;
+}

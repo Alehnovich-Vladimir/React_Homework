@@ -7,6 +7,7 @@ import Conditional from './components/conditionalRendering'
 import Dropdown from './components/customDropdown'
 import Ternary from './components/ternaryOperator'
 import Pages from './components/simplePagination'
+import UseEffect from './components/useEffect'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Dropdown />
     <Ternary />
     <Pages />
+    <UseEffect />
   </React.StrictMode>,
   document.getElementById('root')
 );
