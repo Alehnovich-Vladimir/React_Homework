@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from './components/login'
+import Sauces from './components/Sauces'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Sauces />
   </React.StrictMode>,
   document.getElementById('root')
 );
