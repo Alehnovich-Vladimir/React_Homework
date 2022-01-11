@@ -9,17 +9,19 @@ import Ternary from './components/ternaryOperator'
 import Pages from './components/simplePagination'
 import UseEffect from './components/useEffect'
 import Modifying from './components/modifyingArray'
+import UserList from './components/user_list/UserList'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
-    <ButtonRepeat className="btnRepeat" />
     <Conditional />
+    <Counter />
     <Dropdown />
-    <Ternary />
-    <Pages />
-    <UseEffect />
+    <ButtonRepeat className="btnRepeat" />
     <Modifying />
+    <Pages />
+    <Ternary />
+    <UseEffect />
+    <UserList />
   </React.StrictMode>,
   document.getElementById('root')
 );
