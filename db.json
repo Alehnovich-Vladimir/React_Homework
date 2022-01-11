@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "phone": "+375291234561",
+      "age": "34",
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Mark",
+      "lastName": "Williams",
+      "email": "mark@gmail.com",
+      "phone": "+375291234562",
+      "age": "33",
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Sara",
+      "lastName": "Alekhnovich",
+      "email": "sara@gmail.com",
+      "phone": "+375291234563",
+      "age": "23",
+      "companyId": "2"
+    },
+    {
+      "id": "4",
+      "firstName": "Brad",
+      "lastName": "Traversy",
+      "age": "35",
+      "email": "test@gmail.com",
+      "phone": "+375291234564",
+      "companyId": "3"
+    },
+    {
+      "id": "5",
+      "firstName": "Vladimir",
+      "lastName": "Alekhnovich",
+      "age": "43",
+      "email": "alehnovich.vova@gmail.com",
+      "phone": "+375447141378",
+      "password": "qwe"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "Apple Inc. is an American multinational technology company."
+    },
+    {
+      "id": "2",
+      "name": "Microsoft",
+      "description": "Microsoft Corporation, is an American multinational technology company."
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "description": "Google  is an American multinational technology company."
+    }
+  ]
+}
