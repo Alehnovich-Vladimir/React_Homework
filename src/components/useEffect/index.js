@@ -24,13 +24,13 @@ const TimePicker = () => {
   return (
     <div className="timer">
       <div className="timer-hours">
-        <div className="hours-counter">{hours}</div>
+        <div className="hours-counter">{hours < 10 ? '0' : ''}{hours}</div>
         <button className="btn-m" onClick={() => setHours(hours - 1)}>-</button>
         <button className="btn-p" onClick={() => setHours(hours + 1)}>+</button>
       </div>
       <div className="dots">:</div>
       <div className="timer-minutes">
-        <div className="minutes-counter">{minutes}</div>
+        <div className="minutes-counter">{minutes < 10 ? '0' : ''}{minutes}</div>
         <button className="btn-m" onClick={() => setMinutes(minutes - 1)}>-</button>
         <button className="btn-p" onClick={() => setMinutes(minutes + 1)}>+</button>
       </div>
