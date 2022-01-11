@@ -1,3 +1,63 @@
+.page.page-sauces > button {
+    margin-top: 1rem;
+    
+}
+
+h2, h4{
+    text-align: center;
+}
+
+.page.page-sauces > button {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    margin-left: 890px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.page.page-sauces button:hover {
+    background-color: #eee;
+}
+
 .list {
     display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sauce {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    justify-content: space-between;
+}
+
+.sauce h4, .sauce h5 {
+    text-align: center;
+}
+
+.sauce .picker {
+    display: flex;
+    align-self: center;
+}
+
+.picker button {
+    font-size: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    width: 3rem;
+}
+
+.sauce .picker strong {
+    padding: 0 1rem;
 }
