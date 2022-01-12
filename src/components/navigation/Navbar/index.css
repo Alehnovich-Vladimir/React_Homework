@@ -1,0 +1,32 @@
+*{
+    font-size: 42px;
+}
+
+.navbar {
+    background-color: gray;
+}
+
+.figures, .colors{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.figures button{
+    margin-right: 1rem;
+    border-radius: .3rem;
+    border: none;
+    padding: .2rem;
+    width: 5rem;
+    cursor: pointer;
+    box-shadow: 4px 5px 6px rgba(51, 51, 51, 0.9);
+}
+
+.colors button {
+    margin-right: 1rem;
+    border-radius: .3rem;
+    border: none;
+    padding: .2rem;
+    width: 5rem;
+    cursor: pointer;
+    box-shadow: 4px 5px 6px rgba(51, 51, 51, 0.9);
+}

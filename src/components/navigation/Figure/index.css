@@ -1,0 +1,10 @@
+.square, .circle{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    color: #fff;
+    box-shadow: 6px 5px 9px rgba(51, 51, 51, 0.9);
+}

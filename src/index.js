@@ -1,21 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './components/counterComponent'
-import ButtonRepeat from './components/cyclicButton'
-import Conditional from './components/conditionalRendering'
-import Dropdown from './components/customDropdown'
-import Ternary from './components/ternaryOperator'
-import Pages from './components/simplePagination'
+import Passing from './components/navigation'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
-    <ButtonRepeat className="btnRepeat" />
-    <Conditional />
-    <Dropdown />
-    <Ternary />
-    <Pages />
+    <Passing />
   </React.StrictMode>,
   document.getElementById('root')
 );
